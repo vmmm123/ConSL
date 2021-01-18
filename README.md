@@ -16,8 +16,8 @@ This is the pytorch implementation of the paper "Joint Contrastive Learning and 
 ## Running experiments
 * Multiple domain generalization 
 * You can train the model from scratch : python main.py --data_dir your_data_dir --model AlexNet --datasets PACS
-your_data_dir: the dataset directory
-model: AlexNet or ResNet18
-datasets: PACS or OfficeHome
+    your_data_dir: the dataset directory
+    model: AlexNet or ResNet18
+    datasets: PACS or OfficeHome
     
 
