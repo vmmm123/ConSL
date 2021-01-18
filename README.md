@@ -13,7 +13,7 @@ This is the pytorch implementation of the paper "Joint Contrastive Learning and 
 *  [OfficeHome dataset](https://www.hemanthdv.org/officeHomeDataset.html)
     
 ## Running experiments
-* You can train the model from scratch ： python main.py --data_dir your_data_dir --model AlexNet --datasets PACS
+* You can train the model from scratch : python main.py --data_dir your_data_dir --model AlexNet --datasets PACS
     
     * your_data_dir: the dataset directory
     * model: AlexNet or ResNet18
