@@ -28,4 +28,4 @@ You can train the model from scratch :
 + python main.py --data_dir ./cifar10_dir --target_dir ./cifar10C_dir --file_name acc.csv
 	+	data_dir: the dataset directory for cifar10
 	+	target_dir: the dataset directory for cifar10-C
-	+	file_name: the name of file storing the test acc
+	+	file_name: the name of file storing the test accuracy
