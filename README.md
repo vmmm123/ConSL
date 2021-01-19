@@ -17,7 +17,7 @@ This is the pytorch implementation of the paper "Joint Contrastive Learning and 
 ### Multiple Domain Generalization **
 You can train the model from scratch :
 + cd MDG
-+ python main.py --data_dir your_data_dir --model AlexNet --datasets PACS
++ python main.py --data_dir ./data_dir --model AlexNet --datasets PACS
 	+	data_dir: the dataset directory
 	+	model: AlexNet or ResNet18
 	+	datasets: PACS or OfficeHome
@@ -25,7 +25,7 @@ You can train the model from scratch :
 ### Single Domain Generalization **
 You can train the model from scratch :
 + cd SDG
-+ python main.py --data_dir cifar10_dir --target_dir cifar10C_dir --file_name acc.csv
++ python main.py --data_dir ./cifar10_dir --target_dir ./cifar10C_dir --file_name acc.csv
 	+	data_dir: the dataset directory for cifar10
 	+	target_dir: the dataset directory for cifar10-C
 	+	file_name: the name of file storing the test acc
