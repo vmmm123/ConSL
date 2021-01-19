@@ -14,7 +14,7 @@ This is the pytorch implementation of the paper "Joint Contrastive Learning and 
 *  [CIFAR-10-C](https://github.com/hendrycks/robustness)
 
 ## Running experiments
-### Multiple Domain Generalization **
+### Multiple Domain Generalization 
 You can train the model from scratch :
 + cd MDG
 + python main.py --data_dir ./data_dir --model AlexNet --datasets PACS
@@ -22,7 +22,7 @@ You can train the model from scratch :
 	+	model: AlexNet or ResNet18
 	+	datasets: PACS or OfficeHome
 
-### Single Domain Generalization **
+### Single Domain Generalization 
 You can train the model from scratch :
 + cd SDG
 + python main.py --data_dir ./cifar10_dir --target_dir ./cifar10C_dir --file_name acc.csv
