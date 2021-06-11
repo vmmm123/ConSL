@@ -1,5 +1,5 @@
-# Joint Contrastive Learning and Supervised Learning Towards  Domain Generalization
-This is the pytorch implementation of the paper "Joint Contrastive Learning and Supervised Learning Towards  Domain Generalization".
+# Contrastive Supervised Learning on Domain Generalization and Application to Data Corruption
+This is the pytorch implementation of the paper "Contrastive Supervised Learning on Domain Generalization and Application to Data Corruption".
 
 ## Requirements
 
